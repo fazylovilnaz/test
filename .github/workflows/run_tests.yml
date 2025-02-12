@@ -6,11 +6,10 @@ on:
       deployment_target:
         description: select tests to run
         required: true
-        default: all
         type: choice
+        default: all
         options:
           - all
-
 
 jobs:
   run-tests:
